@@ -1,0 +1,3 @@
+Project for RL Coursework.
+
+Replication of paper - Optimization of Molecules using RL - (DQN)
