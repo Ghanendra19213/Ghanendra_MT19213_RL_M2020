@@ -33,6 +33,7 @@ A simple example to train the model on a single property optimization task can b
 
 ## Results:
 
+Simulated Results available in the pdf.[RL_Project_Results.pdf](https://github.com/Ghanendra19213/Ghanendra_MT19213_RL_M2020/blob/master/Project/RL_Project_Results.pdf)
 The following was the reward curve obtained when the model was trained for 5000 episodes on a single property optimization task (QED in this case).
 
 <img src="https://github.com/Ghanendra19213/Ghanendra_MT19213_RL_M2020/blob/master/Project/Tensorboard_Results.PNG">
