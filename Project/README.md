@@ -25,18 +25,6 @@ by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
 4) Install `baselines`.  
    `pip install "git+https://github.com/openai/baselines.git@master#egg=baselines-0.1.6"`  
    
-## From Docker:
-
-Using a docker image requires an NVIDIA GPU.  If you do not have a GPU please follow the directions for [installing from source](#source)
-In order to get GPU support you will have to use the [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) plugin.
-``` bash
-# Build the Dockerfile in Dockerfiles/Dockerfile to create a Docker image.
-cd Dockerfiles
-docker build -t moldqn_pytorch:latest .
-
-# This will create a container from the image we just created.
-nvidia-docker run -[Options] moldqn_pytorch:latest python path/to/main.py
-```
 Please remember to modify the `TB_LOG_PATH` variable in `main.py` depending on where you wish to store your tensorboard runs file.
 ## Training the MolDQN:
 
