@@ -1,6 +1,6 @@
 
-# MolDQN-pytorch
-## RL Project for Coursework 2020
+# RL Project for Coursework 2020
+## MolDQN-pytorch
 
 PyTorch implementation of MolDQN as described in [Optimization of Molecules via Deep Reinforcement Learning](https://www.nature.com/articles/s41598-019-47148-x)
 by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
