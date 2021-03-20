@@ -1,1 +1,1 @@
-# RL-564-2020
+# CSE564 Reinforcement Learning 2020
